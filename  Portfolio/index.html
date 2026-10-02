@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Hamza El Bouazzaoui, full stack developer.">
+    <title>Hamza El Bouazzaoui | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/H-Photoroom.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css">
+
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar-project">
+        <img src="./images/H-Photoroom.png" width="30" height="30" alt="Hamza logo">
+        <select aria-label="Project">
+            <option>HamzaPortfolio</option>
+        </select>
+    </div>
+
+    <span class="v-divider"></span>
+
+    <ul class="topbar-menu">
+        <li>File</li>
+        <li>Edit</li>
+        <li>View</li>
+        <li>Navigate</li>
+        <li>Code</li>
+        <li>Refactor</li>
+        <li>Build</li>
+        <li>Run</li>
+        <li>Tools</li>
+        <li>Git</li>
+        <li>Window</li>
+        <li>Help</li>
+    </ul>
+
+    <span class="v-divider"></span>
+
+    <div class="topbar-actions">
+        <button type="button" class="run-button">Run Portfolio</button>
+        <button type="button" class="icon-button" aria-label="Search">
+            <i class="material-symbols-outlined" aria-hidden="true">search</i>
+        </button>
+        <button type="button" class="icon-button" aria-label="Profile">
+            <i class="material-symbols-outlined" aria-hidden="true">person</i>
+        </button>
+    </div>
+</header>
+
+<div class="layout">
+
+    <!-- Narrow icon sidebar -->
+    <aside class="icon-sidebar">
+        <button type="button" class="icon-sidebar-button active" aria-label="Files">
+            <i class="material-symbols-outlined" aria-hidden="true">folder</i>
+        </button>
+        <span class="divider"></span>
+        <button type="button" class="icon-sidebar-button" aria-label="History">
+            <i class="material-symbols-outlined" aria-hidden="true">history</i>
+        </button>
+        <span class="divider"></span>
+        <button type="button" class="icon-sidebar-button" aria-label="Issues">
+            <i class="material-symbols-outlined" aria-hidden="true">bug_report</i>
+        </button>
+    </aside>
+
+    <!-- Navigation sidebar -->
+    <nav class="nav-sidebar" aria-label="Portfolio sections">
+        <p class="nav-sidebar-title">HamzaPortfolio</p>
+
+        <ul class="nav-list">
+            <li>
+                <a href="#home" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">home</i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">person</i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="experience.html" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">work_history</i>
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">folder</i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="#education" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">school</i>
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="#skills" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">layers</i>
+                    <span>Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link">
+                    <i class="material-symbols-outlined" aria-hidden="true">mail</i>
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main class="content">
+
+        <!-- Editor-style tab bar -->
+        <div class="tabbar">
+            <div class="tabbar-left">
+                <button type="button" class="tab">
+                    <i class="material-symbols-outlined" aria-hidden="true">home</i>
+                    <span>Home</span>
+                </button>
+                <button type="button" class="icon-button" aria-label="New tab">
+                    <i class="material-symbols-outlined" aria-hidden="true">add</i>
+                </button>
+            </div>
+            <button type="button" class="icon-button" aria-label="Close">
+                <i class="material-symbols-outlined" aria-hidden="true">close</i>
+            </button>
+        </div>
+        <section id="home" class="main">
+           <article class="main-card">
+               <div class="card">
+                   <div class="card-text">
+                       <p class="eyebrow">Welcome to my portfolio</p>
+
+                       <h1>
+                           Hi, I'm<br>
+                           <span class="name">Hamza El Bouazzaoui</span>
+                       </h1>
+                       <p class="role">Full Stack Developer</p>
+
+                       <p>
+                           I'm a passionate developer with a strong background
+                           in building scalable web applications. I enjoy solving
+                           complex problems, learning new technologies and working in
+                           a team that builds great products.
+                       </p>
+
+                       <div class="card-actions">
+                           <a href="#projects" class="button button-primary">
+                               <i class="material-symbols-outlined" aria-hidden="true">folder</i>
+                               View My Projects
+                           </a>
+                           <a href="#contact" class="button">
+                               <i class="material-symbols-outlined" aria-hidden="true">mail</i>
+                               Contact Me
+                           </a>
+                       </div>
+                   </div>
+
+                   <div class="card-image">
+                       <img src="./images/me.jpg" alt="profile picture">
+
+                       <div class="card-image-info">
+                           <a>
+                               <i class="material-symbols-outlined" >location_on</i>
+                               Stockholm, Sweden
+                           </a>
+                           <a class="a-href" href="mailto:hamza.elbouazzaoui@hotmail.com">
+                               <i class="material-symbols-outlined" >mail</i>
+                               hamza.elbouazzaoui@hotmail.com
+                           </a>
+                           <a class="a-href" href="https://www.linkedin.com/in/hamza-el-bouazzaoui" target="_blank" rel="noopener noreferrer">
+                               <i class="fa-brands fa-linkedin"></i>
+                               linkedin.com/in/hamza-el-bouazzaoui
+                           </a>
+                       </div>
+                   </div>
+
+               </div>
+               <div >
+                   <div class="row-cards">
+                       <div class="row-card">
+                           <i class="material-symbols-outlined bleu" aria-hidden="true">work</i>
+                           <span class="big-text p-1">5+</span>
+                           <span class="small-text">Years of experience</span>
+                       </div>
+                       <div class="row-card">
+                           <i class="material-symbols-outlined bleu" aria-hidden="true">work</i>
+                           <span class="big-text p-1">10+</span>
+                           <span class="small-text">Projects Completed</span>
+                       </div>
+                       <div class="row-card">
+                           <i class="material-symbols-outlined orange" aria-hidden="true">star</i>
+                           <span class="big-text p-1">15+</span>
+                           <span class="small-text">Technologies</span>
+                       </div>
+                   </div>
+               </div>
+           </article>
+            <div class="side-cards">
+               <div class="side-card">
+                   <div class="side-card-head">
+                       <a href="#skills" class="nav-link f-8">
+                           <i class="material-symbols-outlined bleu" aria-hidden="true">layers</i>
+                           Skills
+                       </a>
+                       <a  class="nav-link f-8">view all</a>
+                   </div>
+
+                   <div class="side-card-body">
+                     <ul class="skills">
+                         <li><i class="devicon-java-plain colored" aria-hidden="true"></i> Java</li>
+                         <li><i class="devicon-spring-original colored" aria-hidden="true"></i> Spring Boot</li>
+                         <li><i class="devicon-angular-plain colored" aria-hidden="true"></i> Angular</li>
+                         <li><i class="devicon-typescript-plain colored" aria-hidden="true"></i> TypeScript</li>
+                         <li><i class="devicon-docker-plain colored" aria-hidden="true"></i> Docker</li>
+                         <li><i class="devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true"></i> AWS</li>
+                         <li><i class="devicon-apachekafka-original colored" aria-hidden="true"></i> Kafka</li>
+                         <li><i class="devicon-mysql-original colored" aria-hidden="true"></i> MySQL</li>
+                         <li><i class="devicon-git-plain colored" aria-hidden="true"></i> Git</li>
+                         <li><i class="devicon-keycloak-original colored" aria-hidden="true"></i> Keycloak</li>
+                         <li><i class="material-symbols-outlined" aria-hidden="true">add</i> More</li>
+                     </ul>
+
+
+
+                   </div>
+               </div>
+               <div class="side-card">
+                    <div class="side-card-head">
+                        <a href="#skills" class="nav-link f-8">
+                            <i class="material-symbols-outlined bleu" aria-hidden="true">layers</i>
+                            Languages
+                        </a>
+                        <a  class="nav-link f-8">view all</a>
+                    </div>
+
+                    <div class="side-card-body">
+                        <ul class="languages">
+                            <li>
+                                <div class="language-info">
+                                    <span>Darija</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 100%;"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="language-info">
+                                    <span>Arabic</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 100%;"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="language-info">
+                                    <span>French</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="language-info">
+                                    <span>English</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="language-info">
+                                    <span>Swedish</span>
+                                    <span>25%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 25%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+</div>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Hamza El Bouazzaoui</p>
+</footer>
+
+</body>
+</html>
